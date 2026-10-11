@@ -1,0 +1,48 @@
+# 📅 Patient Scheduling & Appointment Management System
+
+## 🩺 Overview
+This sub-project demonstrates standard operating procedures (SOPs), workflow protocols, and triage algorithms for managing patient scheduling and appointments in a remote cardiology setting (such as **Heartbeat Health**).
+
+The objective is to minimize wait times, prevent double-booking, enforce HIPAA-compliant data handling, and ensure high-priority cardiac cases are triaged effectively.
+
+---
+
+## ⚡ Key Scheduling Workflows
+
+### 1. Patient Intake & Priority Triage
+Prior to scheduling, incoming requests are categorized using a 3-tier triage system:
+
+* **Level 1: Urgent (Same-day / Immediate Consultation)**
+  * *Symptoms:* Chest pain, severe shortness of breath, acute palpitations, post-procedure complications.
+  * *Action:* Immediate notification to on-call cardiologist; expedite emergency appointment or direct to ER if needed.
+* **Level 2: Semi-Urgent (Within 24–48 Hours)**
+  * *Symptoms:* Medication side effects, mild routine blood pressure spikes, follow-ups on abnormal test results.
+  * *Action:* Schedule with available cardiology provider within 48 hours.
+* **Level 3: Routine / Elective (3–7 Days)**
+  * *Symptoms:* Annual cardiology check-ups, routine refills, initial non-urgent consultations.
+  * *Action:* Standard scheduling via Electronic Health Record (EHR) / Telehealth portal.
+
+---
+
+### 2. Multi-Channel Appointment Coordination
+* **Virtual Consultations:** Scheduling video/telehealth visits, sending secure meeting links, and delivering pre-visit instructions (e.g., home BP reading guidelines).
+* **In-Person & Lab Visits:** Coordinating diagnostic tests (ECG, Holter monitoring, Echo) with local partner clinics.
+* **Reminders & No-Show Reduction:** Standardized SMS/Email confirmation templates sent 48 hours and 2 hours prior to scheduled visits.
+
+---
+
+### 3. Schedule Optimization & Calendar Management
+* **Slot Management:** Reserving 15-minute buffer blocks for emergency add-ons and administrative documentation.
+* **Rescheduling & Cancellations:** Processing schedule changes promptly while maintaining waitlist priority for backfilling open slots.
+* **EHR Integration & Handoffs:** Logging all appointment notes, pre-visit questionnaires, and insurance verifications directly into the patient's record.
+
+---
+
+## 🔒 HIPAA & Compliance Standards
+* **Data Privacy:** All patient identifiers (PHI) in scheduling calendars are encrypted and accessible only through authenticated EHR logins.
+* **Secure Messaging:** Patient communications regarding scheduling are conducted exclusively through HIPAA-compliant portals or encrypted messaging systems.
+
+---
+
+## 👩‍⚕️ Created By
+**Etsa Lira Perwitasari** | *Registered Nurse & Medical Virtual Assistant*
