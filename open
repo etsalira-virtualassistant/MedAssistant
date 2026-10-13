@@ -1,0 +1,49 @@
+# 🩺 Remote Medical Virtual Assistant (VA) Portfolio & Workflow Tool
+
+![Medical VA Banner](https://img.shields.io/badge/Role-Medical%20Virtual%20Assistant-blue?style=for-the-badge&logo=hospital)
+![HIPAA Compliant](https://img.shields.io/badge/Standard-HIPAA%20Compliant-green?style=for-the-badge)
+![EHR Proficiency](https://img.shields.io/badge/Skill-EHR%2FEMR%20Management-purple?style=for-the-badge)
+
+Welcome to my Medical Virtual Assistant GitHub Repository! This repository demonstrates my practical capabilities in managing **patient intake**, **priority triage**, **EHR/EMR data entry**, **medical scribing**, and **insurance authorization** for remote healthcare clinics.
+
+---
+
+## 📌 Executive Summary
+
+As a **Remote Medical VA**, I bridge the gap between patient onboarding and physician consultations. This repository provides interactive workflow diagrams, documentation templates, and standardized intake procedures designed to optimize clinic efficiency and reduce administrative load for healthcare providers.
+
+---
+
+## 🗂️ Core Competencies & Remote VA Services
+
+| Service Area | Key Capabilities |
+| :--- | :--- |
+| **Patient Intake & Registration** | Demographic verification, insurance data collection, consent forms, EHR profile creation. |
+| **Priority Triage & Screening** | Emergency Severity Index (ESI) classification, symptom intake, urgent escalation protocols. |
+| **Medical Scribing & EHR** | SOAP note formatting, ICD-10 & CPT code mapping, chart pre-buffing, e-prescriptions draft. |
+| **Administrative & Billing** | Insurance prior authorization, appointment scheduling, patient follow-up calls, claims tracking. |
+
+---
+
+## 📊 Patient Intake & Priority Triage Workflow
+
+Below is the interactive visual workflow mapping how I handle patient intake and triage upon arrival/telehealth check-in:
+
+```mermaid
+graph TD
+    A[📱 Patient Check-in / Call] --> B[📋 Patient Intake Form]
+    B --> C{Verified Insurance & Demographics?}
+    C -->|No| D[📞 Contact Patient for Missing Info]
+    C -->|Yes| E[🏥 EMR Record Updated / Created]
+    
+    E --> F[🩺 Symptom & Chief Complaint Screening]
+    F --> G{Triage Severity Assessment}
+    
+    G -->|Level 1 & 2: Emergent / Urgent| H[🚨 Immediate Physician Alert / Emergency Escalation]
+    G -->|Level 3: Semi-Urgent| I[🟡 Queue for Same-Day Telehealth / Clinic Slot]
+    G -->|Level 4 & 5: Routine / Non-Urgent| J[🟢 Standard Appointment Queue]
+
+    H --> K[📝 Pre-Chart Documentation & SOAP Note Draft]
+    I --> K
+    J --> K
+    K --> L[👨‍⚕️ Provider Consultation Ready]
